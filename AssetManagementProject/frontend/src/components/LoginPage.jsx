@@ -12,7 +12,7 @@ const LoginPage = ({ onLoginSuccess }) => {
 
     // Hardcoded credentials for a single login
     const predefinedUsername = 'admin';
-    const predefinedPassword = 'Haier@123';
+    const predefinedPassword = 'admin@123';
 
     // Basic validation
     if (!username || !password) {
