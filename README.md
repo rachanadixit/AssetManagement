@@ -101,9 +101,9 @@ Register the initial admin user with the following `curl` command:
 curl -X POST http://localhost:5000/api/register \
   -H "Content-Type: application/json" \
   -d '{
-    "email": "admin@haierindia.com",
+    "email": "admin@gmail.com",
     "password": "Admin@123",
-    "name": "Haier Admin",
+    "name": "Admin",
     "emp_id": "HADM001",
     "emp_code": "HAC001",
     "role": "Admin"
