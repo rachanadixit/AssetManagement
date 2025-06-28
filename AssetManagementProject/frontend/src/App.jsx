@@ -13,7 +13,7 @@ const LoginPage = ({ onLoginSuccess }) => {
     setErrorMessage('');
     // Hardcoded credentials for a single login
     const predefinedUsername = 'admin';
-    const predefinedPassword = 'Haier@123';
+    const predefinedPassword = 'admin@123';
 
     if (username === predefinedUsername && password === predefinedPassword) {
       onLoginSuccess();
